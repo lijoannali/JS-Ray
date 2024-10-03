@@ -1,4 +1,6 @@
 # JS-Ray
+![colorful example](examples/ex1.png)
+
 
 A ray tracer written in JavaScript with support for rendering:
 - Spheres with reflections
