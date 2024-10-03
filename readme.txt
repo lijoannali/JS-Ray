@@ -1,21 +1,24 @@
-# JS-Ray 
-A ray tracer written in JavaScript with support for rendering: 
-- spheres with reflections
-- spheres with shadows
-- multiple colored light sources
-- using a text input format for custom scene geometry.
+# JS-Ray
 
-# Steps to Run the Ray Tracer
+A ray tracer written in JavaScript with support for rendering:
+- Spheres with reflections
+- Spheres with shadows
+- Multiple colored light sources
+- Custom scene geometry using a text input format
 
-1. Navigate to this folder: js/input/
-2. Create a .txt file called setup.txt (See more below)
-3. Run the Javascript program, and see the ray traced image on the canvas 
+## Steps to Run the Ray Tracer
 
-## Setup: 
-You must add all the Phong materials you need before you add Spheres which use the materials!
-- Each new addition should be separated by a new line,
--Each line should have the name of the type of element you are adding (Phong for a phong material, Sphere for a sphere, etc.), followed by the parameters shown below:
-- Currently, the camera and scene size settings and background colors are not set through the file, so there are recommended ranges for all the locations and sizes which aren't enforced... for now you can adjust the premade example to generate new images where spheres are in frame and drawn at reasonable sizes 
+1. Navigate to this folder: `js/input/`
+2. Create a `.txt` file called `setup.txt` (See more below)
+3. Run the JavaScript program, and see the ray-traced image on the canvas
+
+## Setup
+
+You must add all the Phong materials before adding spheres that use those materials!
+
+- Each new addition should be separated by a new line.
+- Each line should begin with the name of the element you're adding (`Phong` for a Phong material, `Sphere` for a sphere, etc.), followed by the parameters shown below:
+- Currently, the camera, scene size, and background colors are not set through the file. Recommended ranges for locations and sizes are provided, and you can adjust the premade example to create new images where spheres are in frame and drawn at reasonable sizes.
 
 
 ## Template: 
