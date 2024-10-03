@@ -1,5 +1,9 @@
 # JS-Ray 
-My first ray tracer! 
+A ray tracer written in JavaScript with support for rendering: 
+- spheres with reflections
+- spheres with shadows
+- multiple colored light sources
+- using a text input format for custom scene geometry.
 
 # Steps to Run the Ray Tracer
 
