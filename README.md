@@ -8,11 +8,12 @@ A ray tracer written in JavaScript with support for rendering:
 ![colorful example](Examples/reflectionTestForFun.png)
 
 
-## Steps to Run the Ray Tracer
+## Instructions to Run the Ray Tracer
 
-1. Navigate to this folder: `js/input/`
-2. Create a `.txt` file called `setup.txt` (See more below)
-3. Run the JavaScript program, and see the ray-traced image on the canvas
+1. Clone the repository and open index.html in a browser
+2. Navigate to this folder: `js/input/`
+3. Create a `.txt` file called `setup.txt` (See more below)
+4. Run the JavaScript program, and see the ray-traced image on the canvas
 
 ## Setup
 
@@ -25,19 +26,19 @@ You must add all the Phong materials before adding spheres that use those materi
 
 ## Template: 
 ```
-Phong ka kd ks kr alpha r g b \
-Phong ka kd ks kr alpha r g b \
-Phong ka kd ks kr alpha r g b \
-Phong ka kd ks kr alpha r g b \
-Sphere x y z r materialIndex \
-Sphere x y z r materialIndex \
-Sphere x y z r materialIndex \
-Sphere x y z r materialIndex \
-PointLight x y z r1 g1 b1 intensity \
+Phong ka kd ks kr alpha r g b 
+Phong ka kd ks kr alpha r g b 
+Phong ka kd ks kr alpha r g b 
+Phong ka kd ks kr alpha r g b 
+Sphere x y z r materialIndex 
+Sphere x y z r materialIndex 
+Sphere x y z r materialIndex 
+Sphere x y z r materialIndex 
+PointLight x y z r1 g1 b1 intensity 
 PointLight x y z r1 g1 b1 intensity
 ```
 
-## Parameters and Recommended Values Explained: 
+## Parameters and Recommended Values 
 ### Phong 
 - (0 to 1) ka, kd, ks, and kr are the constants for ambient lighting, diffuse lighting, specular lighting, and reflectivity constants 
 - (0 to 255) r g and b set the rgb color for a material 
