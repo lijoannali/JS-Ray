@@ -1,11 +1,12 @@
 # JS-Ray
-![colorful example](Examples/reflectionTestForFun.png)
-
 A ray tracer written in JavaScript with support for rendering:
 - Spheres with reflections
 - Spheres with shadows
 - Multiple colored light sources
 - Custom scene geometry using a text input format
+
+![colorful example](Examples/reflectionTestForFun.png)
+
 
 ## Steps to Run the Ray Tracer
 
