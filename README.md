@@ -1,5 +1,6 @@
 # JS-Ray
 ![colorful example](Examples/reflectionTestForFun.png)
+![colorful example](Examples/ex2.png)
 
 
 A ray tracer written in JavaScript with support for rendering:
