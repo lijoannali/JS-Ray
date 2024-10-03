@@ -24,29 +24,29 @@ You must add all the Phong materials before adding spheres that use those materi
 
 
 ## Template: 
-Phong ka kd ks kr alpha r g b 
-Phong ka kd ks kr alpha r g b 
-Phong ka kd ks kr alpha r g b 
-Phong ka kd ks kr alpha r g b 
-Sphere x y z r materialIndex
-Sphere x y z r materialIndex
-Sphere x y z r materialIndex
-Sphere x y z r materialIndex
-PointLight x y z r1 g1 b1 intensity 
-PointLight x y z r1 g1 b1 intensity 
+Phong ka kd ks kr alpha r g b \
+Phong ka kd ks kr alpha r g b \
+Phong ka kd ks kr alpha r g b \
+Phong ka kd ks kr alpha r g b \
+Sphere x y z r materialIndex \
+Sphere x y z r materialIndex \
+Sphere x y z r materialIndex \
+Sphere x y z r materialIndex \
+PointLight x y z r1 g1 b1 intensity \
+PointLight x y z r1 g1 b1 intensity \
 
 ## Parameters and Recommended Values Explained: 
-Phong 
+### Phong 
 - (0 to 1) ka, kd, ks, and kr are the constants for ambient lighting, diffuse lighting, specular lighting, and reflectivity constants 
 - (0 to 255) r g and b set the rgb color for a material 
 -alpha controls how spread out a material's specular highlight is 
 
-## Sphere
+### Sphere
 - xyz represents the location of a sphere 
 - r is the radius of a Sphere
 - materialIndex is the index of the Phong material used by the Sphere, it is based on the list of added Phong materials, so add the materials before adding Spheres 
 
-## PointLight 
+### PointLight 
 - xyz = location 
 - (0 to 1) r1, b1, and g1 control the color of the light 
 - (0 to 1+) intensity controls the intensity of the light, under 0 dims the light, and over 1 makes it excessively bright 
