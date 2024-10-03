@@ -33,7 +33,7 @@ Sphere x y z r materialIndex \
 Sphere x y z r materialIndex \
 Sphere x y z r materialIndex \
 PointLight x y z r1 g1 b1 intensity \
-PointLight x y z r1 g1 b1 intensity \
+PointLight x y z r1 g1 b1 intensity 
 
 ## Parameters and Recommended Values Explained: 
 ### Phong 
