@@ -1,5 +1,4 @@
 # JS-Ray
-![colorful example](Examples/reflectionTestForFun.png)
 ![colorful example](Examples/ex2.png)
 
 
