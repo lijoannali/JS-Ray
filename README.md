@@ -24,6 +24,7 @@ You must add all the Phong materials before adding spheres that use those materi
 
 
 ## Template: 
+```
 Phong ka kd ks kr alpha r g b \
 Phong ka kd ks kr alpha r g b \
 Phong ka kd ks kr alpha r g b \
@@ -33,7 +34,8 @@ Sphere x y z r materialIndex \
 Sphere x y z r materialIndex \
 Sphere x y z r materialIndex \
 PointLight x y z r1 g1 b1 intensity \
-PointLight x y z r1 g1 b1 intensity 
+PointLight x y z r1 g1 b1 intensity
+```
 
 ## Parameters and Recommended Values Explained: 
 ### Phong 
