@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+ 
+    <h2> JS Ray Tracer</h2>
+    <!-- Imports -->
+    <script src="js/Vec3.js"></script>
+    <script src="js/settings.js"></script>
+    <script src="js/lights/pointLight.js"></script>
+    <script src="js/materials/phong.js"></script>
+    <script src="js/rayCaster.js"></script>
+    <script src="js/renderer.js"></script>
+    <script src="js/generalFunctions.js"></script>
+    <script src="js/objects/sphere.js"></script>
+    <script src="js/input/fileInput.js"></script>
+    <script>
+        let canvas 
+        let ctx; 
+        let renderer = new Renderer(); 
+        let rayCaster = new RayCaster(CAMERA_POS); 
+    //Elements of scene
+        let objects = []; 
+        let lights = []; 
+        let materials = []
+
+  function init() {
+    canvas = document.getElementById("canvas");
+    ctx = canvas.getContext("2d");
+    //Parses the settings file, adds the materials, objects, and lights
+    //Calls createScene, renderer.render
+    setUpScene("js/input/setup.txt")
+    }
+  </script>
+  <body onload="init()">
+    <canvas id="canvas" width= "0" height="0"></canvas>
+    <h3> Lines left: </h3>
+    <h3 id="scanlinesLeft"></h3>
+  </body>
+  </html>
